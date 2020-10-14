@@ -54,36 +54,6 @@
         }
       }
     },
-    {
-      "type": "employees",
-      "id": "139",
-      "links": {
-        "self": "http://localhost:3000/v1/employees/139"
-      },
-      "attributes": {
-        "identifier": null,
-        "firstName": "Harriet",
-        "lastName": "Banks",
-        "name": "Harriet Banks",
-        "features": [
-          "engagement"
-        ],
-        "avatar": null,
-        "employmentStart": "2016-01-31T00:00:00.000Z",
-        "external": false,
-        "Last Year Bonus": 215835,
-        "Business Unit": "People & Operations",
-        "Commute Time": 18,
-        "Age": "1984-04-19",
-        "Department": "Learning and Development",
-        "Gender": "Female",
-        "Job Level": "Executive",
-        "Local Office": "New York",
-        "% of target": 12,
-        "Region": "AMER",
-        "Salary": 332000,
-        "Tenure": "2009-06-30"
-      },
       "relationships": {
         "company": {
           "data": {
@@ -99,60 +69,6 @@
         },
         "phones": {
           "data": []
-        }
-      }
-    },
-    {
-      "type": "employees",
-      "id": "142",
-      "links": {
-        "self": "http://localhost:3000/v1/employees/142"
-      },
-      "attributes": {
-        "identifier": null,
-        "firstName": "Mathilda",
-        "lastName": "Summers",
-        "name": "Mathilda Summers",
-        "features": [
-          "engagement"
-        ],
-        "avatar": null,
-        "employmentStart": "2016-01-31T00:00:00.000Z",
-        "external": false,
-        "Last Year Bonus": 95050,
-        "Business Unit": "Marketing",
-        "Commute Time": 131,
-        "Age": "1976-12-19",
-        "Department": "Media",
-        "Gender": "Female",
-        "Job Level": "Executive",
-        "Local Office": "London",
-        "% of target": 166,
-        "Region": "EMEA",
-        "Salary": 248000,
-        "Tenure": "2000-05-15"
-      },
-      "relationships": {
-        "company": {
-          "data": {
-            "type": "companies",
-            "id": "5"
-          }
-        },
-        "account": {
-          "data": {
-            "type": "accounts",
-            "id": "143"
-          }
-        },
-        "phones": {
-          "data": []
-        },
-        "Manager": {
-          "data": {
-            "type": "employees",
-            "id": "139"
-          }
         }
       }
     },
@@ -197,48 +113,6 @@
           "data": {
             "type": "accounts",
             "id": "141"
-          }
-        },
-        "phones": {
-          "data": []
-        },
-        "Manager": {
-          "data": {
-            "type": "employees",
-            "id": "139"
-          }
-        }
-      }
-    },
-    {
-      "type": "employees",
-      "id": "340",
-      "links": {
-        "self": "http://localhost:3000/v1/employees/340"
-      },
-      "attributes": {
-        "identifier": null,
-        "firstName": "New",
-        "lastName": "Manager",
-        "name": "New Manager",
-        "features": [
-          "engagement"
-        ],
-        "avatar": null,
-        "employmentStart": "2018-02-23T09:09:44.447Z",
-        "external": false
-      },
-      "relationships": {
-        "company": {
-          "data": {
-            "type": "companies",
-            "id": "5"
-          }
-        },
-        "account": {
-          "data": {
-            "type": "accounts",
-            "id": "341"
           }
         },
         "phones": {
